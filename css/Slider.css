@@ -1,0 +1,45 @@
+/*滑动模块 Start*/			
+			.sliderBox {
+				position: relative;
+				width: 720px;
+				padding: 34px 0;
+				border-bottom: solid 1px #dedede;
+				overflow: hidden;
+			}
+			.sliderLists{width:3000px;}
+			.sliderWrap{overflow:hidden;width:100%;}
+			.sliderLists li {
+				display: inline-block;
+				width: 116px;
+				text-align: center;
+				float: left;
+			}			
+			.sliderListItem img {
+				width: 64px;
+				height: 64px;
+			}			
+			.sliderListItem-desc {
+				display: block;
+				font-size: 14px;
+				font-family: simsun;
+				color: #333;
+				padding-top: 20px;
+			}			
+			.pre,
+			.next {
+				position: absolute;
+				display: inline-block;
+				top: 50px;
+				width: 24px;
+				height: 24px;
+			}
+			
+			.pre {
+				background: url(http://hs.cnfol.com/ug/Imgs/WeMediaPC/Icon-ArrowLeft.jpg) no-repeat center;
+			}
+			
+			.next {
+				background: url(http://hs.cnfol.com/ug/Imgs/WeMediaPC/Icon-ArrowRight.jpg) no-repeat center;
+				right: 0;
+			}			
+			/*滑动模块 End*/
